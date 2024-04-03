@@ -36,6 +36,8 @@ if (do_deal)
 		ds_list_delete(cards, 0)
 		//cards_in_play[dealt_cards] = cards[card_count]
 		
+		audio_play_sound(flipcard, 10,0,.5)
+		
 		if dealt_cards < 3
 		{
 			
