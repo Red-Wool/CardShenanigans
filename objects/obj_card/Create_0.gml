@@ -16,6 +16,11 @@ _uniTime  = shader_get_uniform(Shader1, "_u_time");
 _str = shader_get_uniform(Shader1, "_str")
 
 
+function unreveal()
+{
+	sprite_index = spr_back
+}
+
 function reveal()
 {
 	switch(card_type)
